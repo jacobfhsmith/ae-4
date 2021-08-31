@@ -65,7 +65,7 @@ To describe the distribution of a numeric we will use the properties below.
 We will continue our investigation of home prices in Minneapolis, Minnesota.
 
 ```{r load-data, message = FALSE}
-mn_homes <- read_csv("~/mn_homes.csv")
+mn_homes <- read_csv("mn_homes.csv")
 ```
 
 Add a `glimpse` to the code chunk below and identify the following variables as
@@ -170,7 +170,7 @@ Why is data visualization important? We will illustrate using the
 `datasaurus_dozen` data from the `datasauRus` package.
 
 ```{r read-in-dinos, message = FALSE}
-datasaurus_dozen <- read_csv("~/datasaurus_dozen.csv")
+datasaurus_dozen <- read_csv("datasaurus_dozen.csv")
 ```
 
 ```{r glimpse-dinos}
